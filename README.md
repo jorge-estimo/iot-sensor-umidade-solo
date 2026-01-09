@@ -1,38 +1,32 @@
 # iot-sensor-umidade-solo
-# Sensor de Umidade do Solo | Soil Moisture Sensor
+Projeto de Internet das Coisas utilizando Arduino para monitorar a umidade
+do solo e indicar o nível por meio de LEDs.
 
-## 🇧🇷 Português
-
-### 📌 Descrição
-Projeto IoT utilizando Arduino para monitoramento da umidade do solo,
-com indicação visual por LEDs conforme o nível de umidade.
-
-### 🔧 Tecnologias utilizadas
+## Hardwares e Softwares Utilizados
 - Arduino Uno
-- Sensor de umidade do solo
-- C/C++ (Arduino)
-- Tinkercad
+- Sensor de Umidade do Solo
+- LEDs
+- C/C++ (Arduino IDE)
+- Tinkercad (simulação)
 
-### ⚙️ Funcionamento
-O sensor realiza a leitura da umidade do solo e, com base nos valores,
-aciona LEDs indicadores.
+## Funcionamento
+O sensor realiza a leitura da umidade do solo através de uma entrada analógica.
+De acordo com o valor lido, um LED correspondente é acionado indicando o nível
+de umidade.
 
----
+O sensor é energizado apenas no momento da leitura para reduzir corrosão
+e aumentar sua vida útil.
 
-## 🇺🇸 English
+## Faixas de Umidade
+- Muito seco
+- Seco
+- Úmido
+- Muito úmido
 
-### 📌 Description
-IoT project using Arduino to monitor soil moisture,
-with visual feedback through LEDs based on moisture levels.
+## Autor
+Jorge Gabriel Estimo Gomes
 
-### 🔧 Technologies used
-- Arduino Uno
-- Soil moisture sensor
-- C/C++ (Arduino)
-- Tinkercad
+## Código
 
-### ⚙️ How it works
-The sensor reads soil moisture values and activates LEDs
-according to predefined thresholds.
-## 🇧🇷 Observação
-Este projeto foi desenvolvido para fins de estudo e aprendizado.
+## images
+<img width="483" height="460" alt="github" src="https://github.com/user-attachments/assets/8fa9eec3-846c-4bae-9491-9f5c33676669" />
